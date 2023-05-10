@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "whatAppens",
+    "slug": "whatAppens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/foregroundIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Oslomet.whatAppens",
+      "buildNumber": "2"
+    },
+    "android": {
+      "package": "com.Oslomet.whatAppens",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/foregroundIcon.png",
+        "backgroundImage": "./assets/background.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "616845b0-91ac-46d0-9412-40acf3981f37"
+      }
+    }
+  }
+}
